@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Clima = ({resultado}) => {
 
     // extraer los valores
-    const { name, main } = resultado;
+    const { name, main } = resultado;
 
     if(!name) return null;
 

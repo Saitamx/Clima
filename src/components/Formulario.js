@@ -9,7 +9,7 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
     const [error, guardarError] = useState(false);
 
     // extraer ciudad y pais
-    const { ciudad, pais } = busqueda;
+    const { ciudad, pais } = busqueda;
 
     // función que coloca los elementos en el state
     const handleChange = e => {
